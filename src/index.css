@@ -1,0 +1,169 @@
+
+/* Navegação */
+span.nav-link{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* sobre.js */
+#sobre{
+    max-width: 100%;
+}
+.sobre{
+    background-color: #111111;
+}
+
+@keyframes text-title-slide{
+    from{
+        margin-top: 0px;
+        opacity: 0;
+    }
+    to{
+        margin-top: 50px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes text-title-slide {
+    from {
+        margin-top: 0px;
+        opacity: 0;
+    }
+
+    to {
+        margin-top: 50px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes text-title-slide {
+    from {
+        margin-top: 0px;
+        opacity: 0;
+    }
+
+    to {
+        margin-top: 50px;
+        opacity: 1;
+    }
+}
+@-o-keyframes text-title-slide {
+    from {
+        margin-top: 0px;
+        opacity: 0;
+    }
+
+    to {
+        margin-top: 50px;
+        opacity: 1;
+    }
+}
+
+@keyframes text-fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes text-fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes text-fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes text-fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#titulo-sobre{
+    animation-name: text-title-slide;
+    animation-duration: 2000ms;
+    animation-fill-mode: both;
+    -webkit-animation-name: text-title-slide;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-name: text-title-slide;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-fill-mode: both;
+    -o-animation-name: text-title-slide;
+    -o-animation-duration: 2000ms;
+    -o-animation-fill-mode: both;
+}
+#texto-sobre{
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 10px;
+    animation-name: text-fade;
+    animation-delay: 1400ms;
+    animation-duration: 2000ms;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 1400ms;
+    -webkit-animation-name: text-fade;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-delay: 1400ms;
+    -moz-animation-name: text-fade;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-fill-mode: both;
+    -o-animation-delay: 1400ms;
+    -o-animation-name: text-fade;
+    -o-animation-duration: 2000ms;
+    -o-animation-fill-mode: both;
+}
+
+#foto-victor{
+    width: 66%;
+}
+
+
+/* botão navbar outline */
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none !important;
+}
+.teste{
+    border: 1px solid blue;
+}
+/* habilidades.js */
+.skill-box{
+    box-shadow: 20px 20px 40px #111111;
+    border: 3px solid #111111;
+}
+.skill-box:hover{
+    border: 3px solid blue;
+    transition: 3s;
+}
+.html5, .react{
+    height: 100px;
+    width: 100px;
+}
+.css3, .javascript{
+    height: 100px;
+    width: 70px;
+}
+.sass{
+    height: 100px;
+    width: 150px;
+}
