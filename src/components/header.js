@@ -12,6 +12,10 @@ function goToSkills(){
     var topOfElement = document.querySelector('#habilidades').offsetTop - 30
     window.scrollTo({top: topOfElement, behavior: 'smooth'})
 }
+function goToAcademy(){
+    var topOfElement = document.querySelector('#qualificacoes').offsetTop - 70
+    window.scrollTo({top: topOfElement, behavior: 'smooth'})
+}
 
 return(
     <header className='sticky-top'>
@@ -27,7 +31,10 @@ return(
                             <span className="nav-link" onClick={goToHome} data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Home</span>
                         </li>
                         <li className="nav-item">
-                            <span className="nav-link" onClick={goToSkills} data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Link</span>
+                            <span className="nav-link" onClick={goToSkills} data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Habilidades</span>
+                        </li>
+                        <li className="nav-item">
+                            <span className="nav-link" onClick={goToAcademy} data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Qualificações</span>
                         </li>
                     </ul>
                 </div>

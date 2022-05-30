@@ -148,6 +148,10 @@ span.nav-link{
 }
 /* habilidades.js */
 .skill-box{
+    animation: skill-fade 3000ms both;
+    -webkit-animation: skill-fade 3000ms both;
+    -moz-animation: skill-fade 3000ms both;
+    -o-animation: skill-fade 3000ms both;
     box-shadow: 20px 20px 40px #111111;
     border: 3px solid #111111;
 }
@@ -155,7 +159,7 @@ span.nav-link{
     border: 3px solid blue;
     transition: 3s;
 }
-.html5, .react{
+.html5, .react, .bootstrap, .nodejs, .jquery, .mongodb{
     height: 100px;
     width: 100px;
 }
@@ -163,7 +167,57 @@ span.nav-link{
     height: 100px;
     width: 70px;
 }
-.sass{
+.sass, .php7, .express, .mysql{
     height: 100px;
     width: 150px;
+}
+
+@keyframes skill-fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes skill-fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes skill-fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes skill-fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* experiencias.js */
+ /**** As configurações css da timeline de qualificações estão em timeline.css****/
+
+.btn-main{
+    background: rgb(33, 0, 247);
+    background: linear-gradient(56deg, rgba(33, 0, 247, 1) 0%, rgba(52, 0, 116, 1) 49%, rgba(145, 0, 149, 1) 100%);
+    border: 2px solid white !important;
+    color: white !important;
 }
