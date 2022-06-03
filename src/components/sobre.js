@@ -9,12 +9,12 @@ return(
     <section id="sobre" className="container-fluid">
         <div className="sobre row">
             <div className="col-4 d-lg-flex d-none">
-                <img src={Victor} alt="" className="mt-5 ms-lg-5" id="foto-victor"></img>
+                <img src={Victor} alt="" className="mt-5 ms-lg-5 foto-victor" id="foto-victor"></img>
             </div>
-            <div className="col-6 d-md-flex d-lg-none d-none" >
-                <img src={Victor} alt="" className="mt-5 ms-2" style={{width: '66%'}}></img>
+            <div className="col-5 d-md-flex d-lg-none d-none side-md-pic" >
+                <img src={Victor} alt="" className="mt-5 ms-2" id="foto-victor-md"></img>
             </div>
-            <div className="col-12 col-md-6 col-xl-6 text-white" >
+            <div className="col-12 col-md-7 col-xl-6 text-white" >
                 <h1 className="display-1 " id="titulo-sobre">Quem sou eu?</h1>
                 <p id="texto-sobre">
                     Meu nome é Victor Felipe Perdigão de Souza. Sou desenvolvedor full-stack, procurando sempre evoluir e melhorar meus conhecimentos em diversas áreas.

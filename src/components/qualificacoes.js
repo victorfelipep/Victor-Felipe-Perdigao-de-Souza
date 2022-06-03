@@ -1,4 +1,5 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
+import TypeWriterEffect from 'react-typewriter-effect'
 import Certificados from "./certificados"
 import '../timeline.css'
 import Curriculo from '../curriculo/CURRICULO_VICTOR.pdf'
@@ -6,7 +7,16 @@ import Curriculo from '../curriculo/CURRICULO_VICTOR.pdf'
 function Qualificacoes(){
     return(
         <div id="qualificacoes" className="pt-3 mt-4">
-            <h1 className="mt-5 text-center text-bold">QUALIFICAÇÕES</h1>
+            <div className="text-center typewriter-title my-4" id="typewriter-1">
+                <TypeWriterEffect
+                    textStyle={{
+                        textAlign: 'center',
+                    }}
+                    text = "QUALIFICAÇÕES"
+                    typeSpeed={100}
+                    cursorColor="#FFFFFF"
+                />
+            </div>
             <div className="page container">
                 <div className="timeline"> {/* INÍCIO ITEM TIMELINE*/}
                     <div className="timeline__group">

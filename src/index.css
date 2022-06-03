@@ -1,3 +1,11 @@
+.typewriter-title{
+    font-size: 40px;
+    height: 41px;
+    box-sizing: border-box;
+}
+.blank-box{
+    height: 191.5px;
+}
 
 /* Navegação */
 span.nav-link{
@@ -130,9 +138,20 @@ span.nav-link{
 }
 
 #foto-victor{
-    width: 66%;
+    width: 311px;
+    height: 530px;
 }
 
+.side-md-pic{
+    position: relative;
+}
+
+#foto-victor-md{
+    width: 286px;
+    height: 505px;
+    position: absolute;
+    bottom: 0;
+}
 
 /* botão navbar outline */
 .btn:focus,

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import TypeWriterEffect from 'react-typewriter-effect'
 import '../bootstrap/bootstrap.min.css'
 import '../index.css'
 
@@ -14,7 +15,16 @@ let certificados = [
 
 return(
     <div className="container mt-5" id="certificados">
-        <h1 className="text-center">CERTIFICADOS</h1>
+        <div className="text-center typewriter-title my-4" id="typewriter-1">
+            <TypeWriterEffect
+                textStyle={{
+                    textAlign: 'center',
+                }}
+                text = "CERTIFICADOS"
+                typeSpeed={100}
+                cursorColor="#FFFFFF"
+            />
+        </div>
         <div className="mt-3">
             <div className="card w-100">
             <div className="card-body">

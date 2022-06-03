@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import Typewriter from 'typewriter-effect'
+import TypeWriterEffect from 'react-typewriter-effect'
 import '../bootstrap/bootstrap.min.css'
 import '../index.css'
 import Html5 from '../assets/skills/html5.png'
@@ -14,6 +14,7 @@ import Express from '../assets/skills/express.svg'
 import JQuery from '../assets/skills/jquery.png'
 import Mysql from '../assets/skills/mysql.png'
 import MongoDB from '../assets/skills/mongodb.png'
+
 
 function Habilidades(){
 
@@ -36,18 +37,27 @@ document.addEventListener("scroll", handleSkillScroll)
 
 const [render, setRender] = useState(false)
 const [blankSpace, setBlankSpace] = useState(true)
+var myRef = null
 
 function handleSkillScroll(){
     if(window.scrollY > 380) {
         setRender(true)
         setBlankSpace(false)
     }
-}    
+}
 
 return(
-    <section className="pt-5" id="habilidades">
-        <h1 className="text-center">HABILIDADES E CONHECIMENTOS</h1>
+    <section className="pt-5" id="habilidades">    
         <div className="container">
+            <div className="text-center typewriter-title" id="typewriter-1">
+                <TypeWriterEffect
+                    textStyle={{
+                        textAlign: 'center',
+                    }}
+                    text = "HABILIDADES E CONHECIMENTOS"
+                    typeSpeed={100}
+                />
+            </div>
             <div className="mt-5">
                 <ul className="list-unstyled row">
                     {render && habilidades.map((habilidade) =>{
@@ -63,14 +73,21 @@ return(
                     })}
                 </ul>
             </div>
-        </div>
         {blankSpace &&
-            <>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            </>
+            <div className="row"> 
+            {blankSpace &&  habilidades.map((habilidade) =>{
+                const { id, nome, img } = habilidade
+                return(
+                        <div key={id} className="col-12 col-md-4 ">
+                            <div className="mt-4 py-4 blank-box text-center">
+                            </div>
+                        </div>   
+                )
+            })
+            }
+            </div>
         }
+        </div>
     </section>
 )
 }
