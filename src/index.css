@@ -1,3 +1,6 @@
+html{
+    overflow-x: hidden !important;
+}
 .typewriter-title{
     font-size: 40px;
     height: 41px;
@@ -239,4 +242,27 @@ span.nav-link{
     background: linear-gradient(56deg, rgba(33, 0, 247, 1) 0%, rgba(52, 0, 116, 1) 49%, rgba(145, 0, 149, 1) 100%);
     border: 2px solid white !important;
     color: white !important;
+    margin-bottom: 20px;
+}
+/* portifolio.js */
+.portifolio{
+    height: 500px;
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+/* footer.js */
+#footer{
+    height: 300px;
+    padding-top: 30px;
+}
+.redes{
+    font-size: 30px;
+}
+.redes a,
+a:visited,
+a:active {
+    color: inherit;
+}
+a:hover{
+    color: #3d008d !important;
 }
