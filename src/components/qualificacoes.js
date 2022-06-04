@@ -23,12 +23,12 @@ function Qualificacoes(){
                         <span className="timeline__year status" aria-hidden="true">2014 - 2016</span>
                         <div className="timeline__cards">
                             <div className="timeline__card card">
-                                <header className="card__header">
+                                <div className="card__header">
                                     <span className="status bg-success">
                                         <span className="text-white">CONCLUÍDO</span>
                                     </span>
                                     <h3 className="card__title r-title">C.E. SESI 094</h3>
-                                </header>
+                                </div>
                                 <div className="card__content">
                                     <p>Ensino Médio Completo</p>
                                 </div>
@@ -41,12 +41,12 @@ function Qualificacoes(){
                         <span className="timeline__year status" aria-hidden="true">2017 - 2018</span>
                         <div className="timeline__cards">
                             <div className="timeline__card card">
-                                <header className="card__header">
+                                <div className="card__header">
                                     <span className="status bg-success">
                                         <span className="text-white">CONCLUÍDO</span>
                                     </span>
                                     <h3 className="card__title r-title">Escola Senai Almirante Tamandaré</h3>
-                                </header>
+                                </div>
                                 <div className="card__content">
                                     <p>CAI - Eletricista de Manutenção Eletroeletrônica</p>
                                 </div>
@@ -59,12 +59,12 @@ function Qualificacoes(){
                         <span className="timeline__year status" aria-hidden="true">2022 - 2025</span>
                         <div className="timeline__cards">
                             <div className="timeline__card card">
-                                <header className="card__header">
+                                <div className="card__header">
                                     <span className="status bg-primary">
                                         <span className="text-white">CURSANDO</span>
                                     </span>
                                     <h3 className="card__title r-title">UFABC - Universidade Federal do ABC</h3>
-                                </header>
+                                </div>
                                 <div className="card__content">
                                     <p>Bacharelado em Ciência e Tecnologia</p>
                                 </div>
@@ -77,12 +77,12 @@ function Qualificacoes(){
                         <span className="timeline__year status" aria-hidden="true">2022 - 2027</span>
                         <div className="timeline__cards">
                             <div className="timeline__card card">
-                                <header className="card__header">
+                                <div className="card__header">
                                     <span className="status bg-primary">
                                         <span className="text-white">CURSANDO</span>
                                     </span>
                                     <h3 className="card__title r-title">UFABC - Universidade Federal do ABC</h3>
-                                </header>
+                                </div>
                                 <div className="card__content">
                                     <p>Bacharelado em Engenharia de Informação</p>
                                 </div>

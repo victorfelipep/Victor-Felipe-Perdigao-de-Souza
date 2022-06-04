@@ -9,15 +9,15 @@ function goToHome(){
     window.scrollTo({top: 0, behavior: 'smooth'})
 }
 function goToSkills(){
-    var topOfElement = document.querySelector('#habilidades').offsetTop - 30
+    var topOfElement = document.querySelector('#habilidades').offsetTop
     window.scrollTo({top: topOfElement, behavior: 'smooth'})
 }
 function goToAcademy(){
-    var topOfElement = document.querySelector('#qualificacoes').offsetTop - 70
+    var topOfElement = document.querySelector('#qualificacoes').offsetTop
     window.scrollTo({top: topOfElement, behavior: 'smooth'})
 }
 function goToProjects(){
-    var topOfElement = document.querySelector('#portifolio').offsetTop - 90
+    var topOfElement = document.querySelector('#portifolio').offsetTop - 80
     window.scrollTo({top: topOfElement, behavior: 'smooth'})
 }
 

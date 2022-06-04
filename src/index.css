@@ -1,5 +1,6 @@
-html, body{
-    overflow-x: hidden !important;
+#todos{
+    overflow: hidden;
+    position: relative;
 }
 .typewriter-title{
     font-size: 40px;

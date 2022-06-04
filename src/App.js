@@ -10,11 +10,13 @@ function App(){
 return(
     <>
         <Header/>
-        <Sobre/>
-        <Habilidades/>
-        <Qualificacoes/>
-        <Portifolio/>
-        <Footer/>
+        <div id="todos">
+            <Sobre/>
+            <Habilidades/>
+            <Qualificacoes/>
+            <Portifolio/>
+            <Footer/>
+        </div>
     </>
 )}
 
