@@ -3,12 +3,14 @@ import { useSprings, animated, to as interpolate } from 'react-spring'
 import { useDrag } from 'react-use-gesture'
 import qatarSimulator from '../assets/cards/qatar-simulator.png'
 import portifolioVictor from '../assets/cards/portifolio-victor.png'
+import estoqueSmartBom from '../assets/cards/estoque-smartbom.png'
 import { useDoubleTap } from 'use-double-tap';
 
 import styles from '../styles.module.css'
 
 const cards = [
   '',
+  estoqueSmartBom,
   portifolioVictor,
   qatarSimulator
 ]
@@ -35,14 +37,20 @@ function Cards() {
       handleDblClick()
     } : null)
   function handleDblClick() {
-    if (indexCarta === 2) {
+    if (indexCarta === 3) {
       window.open(
         'https://victorfelipep.github.io/world-cup-simulator/',
         '_blank' 
         )
     }
-    if (indexCarta === 1) {
+    if (indexCarta === 2) {
       window.location.reload()
+    }
+    if (indexCarta === 1) {
+      window.open(
+        'https://smartbom-estoque.herokuapp.com/',
+        '_blank' 
+        )
     }
   }
   const [gone] = useState(() => new Set()) 
