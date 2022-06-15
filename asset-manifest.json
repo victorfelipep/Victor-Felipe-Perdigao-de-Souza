@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Victor-Felipe-Perdigao-de-Souza/static/css/main.02711fc2.css",
-    "main.js": "/Victor-Felipe-Perdigao-de-Souza/static/js/main.39a56e59.js",
+    "main.js": "/Victor-Felipe-Perdigao-de-Souza/static/js/main.859bba82.js",
     "static/media/victor.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/victor.bdf3650d183208ed05fd.png",
     "static/media/mysql.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/mysql.83695abb1d9f29bf0f52.png",
     "static/media/portifolio-victor.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/portifolio-victor.2b84a69843f6c1c3924c.png",
@@ -10,6 +10,7 @@
     "static/media/sass.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/sass.29b61e331cc5bd6cca90.png",
     "static/media/CURRICULO_VICTOR.pdf": "/Victor-Felipe-Perdigao-de-Souza/static/media/CURRICULO_VICTOR.485411d00c131b5a3251.pdf",
     "static/media/bootstrap.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/bootstrap.d5210cdeab1bc94309c4.png",
+    "static/media/estoque-smartbom.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/estoque-smartbom.49de14e92994a79cd44a.png",
     "static/media/html5.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/html5.23784160d848f734c302.png",
     "static/media/js.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/js.747787dca203fae2cd83.png",
     "static/media/mongodb.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/mongodb.7a16fc61d457c9e340e2.png",
@@ -18,10 +19,10 @@
     "static/media/nodejs.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/nodejs.51006192da94721021b1.png",
     "index.html": "/Victor-Felipe-Perdigao-de-Souza/index.html",
     "main.02711fc2.css.map": "/Victor-Felipe-Perdigao-de-Souza/static/css/main.02711fc2.css.map",
-    "main.39a56e59.js.map": "/Victor-Felipe-Perdigao-de-Souza/static/js/main.39a56e59.js.map"
+    "main.859bba82.js.map": "/Victor-Felipe-Perdigao-de-Souza/static/js/main.859bba82.js.map"
   },
   "entrypoints": [
     "static/css/main.02711fc2.css",
-    "static/js/main.39a56e59.js"
+    "static/js/main.859bba82.js"
   ]
 }
