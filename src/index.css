@@ -182,7 +182,7 @@ span.nav-link{
     border: 3px solid blue;
     transition: 3s;
 }
-.html5, .react, .bootstrap, .nodejs, .jquery, .mongodb{
+.html5, .react, .bootstrap, .nodejs, .jquery, .mongodb, .typescript{
     height: 100px;
     width: 100px;
 }
@@ -190,9 +190,14 @@ span.nav-link{
     height: 100px;
     width: 70px;
 }
-.sass, .php7, .express, .mysql{
+.sass, .php7, .express, .mysql, .oracle{
     height: 100px;
     width: 150px;
+}
+.powerbi{
+    height: 100px;
+    width: 115px;
+    border-radius: 10px;
 }
 
 @keyframes skill-fade {

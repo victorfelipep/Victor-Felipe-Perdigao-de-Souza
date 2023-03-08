@@ -10,7 +10,8 @@ let certificados = [
     {id:1, titulo:'Competência transversal - Lógica de programação', instituicao:'Centro SENAI de Tecnologias Educacionais'},
     {id:2, titulo:'Desvendando a blockchain', instituicao:'Escola SENAI Almirante Tamandaré'},
     {id:3, titulo:'Desenvolvimento Web Completo 2022', instituicao:'Udemy'},
-    {id:4, titulo:'Server-side Development with NodeJS, Express and MongoDB - The Hong Kong University of Science and Technology', instituicao:'Coursera'}
+    {id:4, titulo:'Server-side Development with NodeJS, Express and MongoDB - The Hong Kong University of Science and Technology', instituicao:'Coursera'},
+    {id:5, titulo:'Formação Microsoft Power BI Profissional', instituicao:'Udemy'}
 ]
 
 return(

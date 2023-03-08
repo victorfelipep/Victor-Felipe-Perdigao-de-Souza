@@ -14,7 +14,9 @@ import Express from '../assets/skills/express.svg'
 import JQuery from '../assets/skills/jquery.png'
 import Mysql from '../assets/skills/mysql.png'
 import MongoDB from '../assets/skills/mongodb.png'
-
+import Oracle from '../assets/skills/oracle.png'
+import TypeScript from '../assets/skills/typescript.png'
+import PowerBI from '../assets/skills/powerbi.png'
 
 function Habilidades(){
 
@@ -30,7 +32,10 @@ let habilidades = [
     {id:8, nome:'Express', img:Express},
     {id:9, nome:'JQuery', img:JQuery},
     {id:10, nome:'MySQL', img:Mysql},
-    {id:11, nome:'MongoDB', img:MongoDB}
+    {id:11, nome:'MongoDB', img:MongoDB},
+    {id:12, nome:'Oracle', img:Oracle},
+    {id:13, nome:'TypeScript', img:TypeScript},
+    {id:14, nome:'PowerBI', img:PowerBI}
 ]
 
 document.addEventListener("scroll", handleSkillScroll)
@@ -66,7 +71,7 @@ return(
                             <div key={id} className="col-12 col-md-4 ">
                                 <li className="mt-4 skill-box py-4 text-center">
                                     <h3>{nome}</h3>
-                                    <img src={img} alt="nome" className={nome.toLowerCase()}></img>
+                                    <img src={img} alt="nome" className={(nome.split(' ')[0]).toLowerCase()}></img>
                                 </li>
                             </div>    
                         )
