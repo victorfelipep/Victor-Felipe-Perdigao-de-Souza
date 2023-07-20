@@ -26,6 +26,9 @@ function Footer(){
                         <span className='ms-2'>{telefone}</span>
                     </div>
                     <div className='mt-4'>
+                        <p>Ícones por: <a href='https://icons8.com.br/' target="_blank" className='text-white'>ICONS8</a></p>
+                    </div>
+                    <div className='mt-4'>
                         <p>Website criado em React</p>
                     </div>
                     <div className='mt-1'>

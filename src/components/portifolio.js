@@ -1,8 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../bootstrap/bootstrap.min.css'
 import '../index.css'
 import TypeWriterEffect from 'react-typewriter-effect'
 import Deck from './deck'
+import Swiper from './swipers'
 
 function Portifolio(){
 
@@ -18,10 +19,12 @@ function Portifolio(){
                         typeSpeed={100}
                     />
                 </div>
-                <Deck/>
+  
+                <Swiper/>
+                 
             </div>
             <h1 className='display-6 text-muted text-center mt-5'>
-                ARRASTE PARA O LADO E DÊ UM DUPLO CLIQUE NO CARD PARA ACESSAR O PROJETO
+                ARRASTE PARA O LADO E DÊ UM DUPLO CLIQUE NO PROJETO DESEJADO PARA ACESSAR
             </h1>
         </div>
     )

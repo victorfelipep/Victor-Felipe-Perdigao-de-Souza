@@ -272,3 +272,77 @@ a:active {
 a:hover{
     color: #3d008d !important;
 }
+
+/* Swiper */
+
+.swiper-css{
+    text-align: center;
+        max-width: 450px;
+}
+
+.swiper-card{
+    border: 8px solid white;
+    border-radius: 2px;
+}
+
+#gestao_orcamento{
+    background-color: rgb(49, 188, 212);
+    width:100%;
+    transition: 0.5s;
+}
+#gestao_orcamento:hover {
+    background-color: rgba(49, 188, 212, .5);
+    transition: 1.5s;
+}
+#monitoramento_prodes{
+    background-color: rgb(78, 255, 107);
+    width: 100%;
+    transition: 0.5s;
+}
+#monitoramento_prodes:hover {
+    background-color: rgba(78, 255, 107, .5);
+    transition: 1.5s;
+}
+#qatar_cup{
+    background-color: rgb(185, 0, 9);
+    transition: 0.5s;
+    width: 100%;
+}
+#qatar_cup:hover {
+    background-color: rgba(185, 0, 9, .5);
+    transition: 1.5s;
+}
+#portifolio_victor {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+    width: 100%;
+}
+#portifolio_victor:hover {
+    background-color: rgba(0, 0, 0, .5);
+    transition: 1.5s;
+}
+
+/* Swiper Selector */
+.type-box{
+    border-radius: 5px;
+    border: 3px solid black;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 10px 10px 20px #111111;
+    cursor: pointer;
+}
+.type-box-clicked {
+    border-radius: 5px;
+    border: 3px solid #3d008d;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 10px 10px 40px hsl(266, 98%, 23%);
+    cursor: pointer;
+    transition: 0.8s;
+}
+.pbi-select, .dev-select{
+    font-size: 100%;
+    font-weight: bold;
+}
