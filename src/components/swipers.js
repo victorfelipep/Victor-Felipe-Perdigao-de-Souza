@@ -19,7 +19,7 @@ const projetosPowerBI = [
 
 const projetosDesenvolvimento = [
     {id:0, idHTML:'qatar_cup', img:qatar_cup, link:'https://victorfelipep.github.io/world-cup-simulator/'},
-    {id:1, idHTML:'portifolio_victor ', img:portifolio_victor, link:'#'},
+    {id:1, idHTML:'portifolio_victor', img:portifolio_victor, link:'#'},
 ]
 
 function Swipers(){
