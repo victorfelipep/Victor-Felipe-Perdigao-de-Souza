@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Victor-Felipe-Perdigao-de-Souza/static/css/main.907dd4b2.css",
-    "main.js": "/Victor-Felipe-Perdigao-de-Souza/static/js/main.414fb17b.js",
+    "main.js": "/Victor-Felipe-Perdigao-de-Souza/static/js/main.0161f898.js",
     "static/media/victor.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/victor.bdf3650d183208ed05fd.png",
     "static/media/mysql.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/mysql.83695abb1d9f29bf0f52.png",
     "static/media/portifolio-victor.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/portifolio-victor.2b84a69843f6c1c3924c.png",
     "static/media/qatar-simulator.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/qatar-simulator.0409066d99c7872825b6.png",
     "static/media/react.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/react.f6b89d232c9bc9f828e5.png",
+    "static/media/CURRICULO_VICTOR.pdf": "/Victor-Felipe-Perdigao-de-Souza/static/media/CURRICULO_VICTOR.bf350c3a1864d2df979c.pdf",
     "static/media/sass.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/sass.29b61e331cc5bd6cca90.png",
-    "static/media/CURRICULO_VICTOR.pdf": "/Victor-Felipe-Perdigao-de-Souza/static/media/CURRICULO_VICTOR.f6863a8180b4890a86a4.pdf",
     "static/media/bootstrap.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/bootstrap.d5210cdeab1bc94309c4.png",
     "static/media/este_site.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/este_site.7d87a93515730deea658.png",
     "static/media/powerbi.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/powerbi.385332fc123bbcf0bb11.png",
@@ -25,10 +25,10 @@
     "static/media/nodejs.png": "/Victor-Felipe-Perdigao-de-Souza/static/media/nodejs.51006192da94721021b1.png",
     "index.html": "/Victor-Felipe-Perdigao-de-Souza/index.html",
     "main.907dd4b2.css.map": "/Victor-Felipe-Perdigao-de-Souza/static/css/main.907dd4b2.css.map",
-    "main.414fb17b.js.map": "/Victor-Felipe-Perdigao-de-Souza/static/js/main.414fb17b.js.map"
+    "main.0161f898.js.map": "/Victor-Felipe-Perdigao-de-Souza/static/js/main.0161f898.js.map"
   },
   "entrypoints": [
     "static/css/main.907dd4b2.css",
-    "static/js/main.414fb17b.js"
+    "static/js/main.0161f898.js"
   ]
 }
